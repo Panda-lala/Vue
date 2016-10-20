@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>双向绑定示例</title>
     <script src="../js/vue.js"></script>
 </head>
 <body>
+<!--这是我们的View-->
 <div id="app">
-    {{message}}
+    <p>{{message}}</p>
+    <input type="text" v-model="message">
 </div>
-</body>
 <script>
     //这是我们的Model
     var exampleData = {
@@ -22,4 +23,5 @@
         data:exampleData
     })
 </script>
+</body>
 </html>

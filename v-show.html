@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/vue.js"></script>
+</head>
+<body>
+/*v-show也是条件渲染指令，和v-if指令不同的是，使用v-show指令的元素始终会被渲染到HTML,它只是简单地为元素设置css的style属性*/
+<div id="zx">
+    <h1>Hello,Vue.js!我在尝试</h1>
+    <h1 v-show="yes">yes</h1>
+    <h1 v-show="no">no</h1>
+    <h1 v-show="age>= 25">年龄 {{age}}</h1>
+    <h1 v-show="name.indexOf('keepfool1')">名字 {{name}}</h1>
+</div>
+</body>
+<script>
+   var vm = new Vue({
+       el:'#zx',
+       data:{
+           yes:true,
+           no:false,
+           age:28,
+           name:'keepfool'
+       }
+   })
+</script>
+</html>
