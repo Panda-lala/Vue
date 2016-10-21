@@ -7,16 +7,18 @@
     <script src="js/vue.js"></script>
 </head>
 <body>
-    <div id="app">
-        <table>
-            <thead>
+    <div class="table-responsive" id="app">
+        <table class="table table-bordered table-striped">
+            <thead class="table-info">
                 <th>Name</th>
                 <th>Age</th>
                 <th>Sex</th>
             </thead>
             <tbody>
                 <tr v-for="person in people">
-                    <td></td>
+                    <td>{{person.name}}</td>
+                    <td>{{person.age}}</td>
+                    <td>{{person.sex}}</td>
                 </tr>
             </tbody>
         </table>
@@ -41,6 +43,10 @@
             },{
                 name:'Chris',
                 age:36,
+                sex:'Male'
+            },{
+                name:'Chrisz',
+                age:39,
                 sex:'Male'
             }]
         }
