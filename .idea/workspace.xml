@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2218994f-823f-463b-98d4-0373ab567ce3" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/综合实例2.html" afterPath="$PROJECT_DIR$/message.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/message.html" afterPath="$PROJECT_DIR$/message.html" />
     </list>
     <ignored path="Vue.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +38,8 @@
       <file leaf-file-name="message.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/message.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+            <state relative-caret-position="626">
+              <caret line="97" column="39" selection-start-line="97" selection-start-column="39" selection-end-line="97" selection-end-column="39" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -75,6 +75,7 @@
         <option value="$PROJECT_DIR$/v-for.html" />
         <option value="$PROJECT_DIR$/综合实例.html" />
         <option value="$PROJECT_DIR$/综合实例2.html" />
+        <option value="$PROJECT_DIR$/message.html" />
       </list>
     </option>
   </component>
@@ -85,7 +86,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="136" />
+    <option name="x" value="-12" />
     <option name="y" value="49" />
     <option name="width" value="1435" />
     <option name="height" value="851" />
@@ -237,7 +238,7 @@
       <workItem from="1476956081244" duration="1486000" />
       <workItem from="1477036009081" duration="1633000" />
       <workItem from="1477039268399" duration="7307000" />
-      <workItem from="1477290964627" duration="8557000" />
+      <workItem from="1477290964627" duration="10132000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1476954969596</created>
@@ -299,13 +300,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19953000" />
+    <option name="totallyTimeSpent" value="21528000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="136" y="49" width="1435" height="851" extended-state="0" />
-    <editor active="false" />
+    <frame x="-12" y="49" width="1435" height="851" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.143554" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.143554" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -473,8 +474,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/message.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+        <state relative-caret-position="626">
+          <caret line="97" column="39" selection-start-line="97" selection-start-column="39" selection-end-line="97" selection-end-column="39" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

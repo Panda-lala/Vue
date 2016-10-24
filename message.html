@@ -26,7 +26,7 @@
                 </div>
                 <div class="form-group">
                     <label>留言</label>
-                    <textarea class="form-control" placeholder="快来留言"></textarea>
+                    <textarea class="form-control" placeholder="快来留言" v-model="newPerson.content"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary" v-on:click="createData">Submit</button>
         </div>
@@ -91,10 +91,11 @@
         methods:{
             createData:function () {
                 this.items.unshift(this.newPerson);
-                this.newPerson = {name:'',age:0,tel:''}
+                //console.log(this.newPerson);
+                this.newPerson = {name:'',age:0,tel:'',content:''}
             },
             deleteData:function (index) {
-                this.items.splice(index,1)
+                this.items.splice(index)
             }
         }
     })
