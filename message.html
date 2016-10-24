@@ -48,7 +48,7 @@
                 <td class="text-center">{{item.tel}}</td>
                 <td class="text-center">{{item.content}}</td>
                 <td class="text-center">
-                    <button class="btn btn-primary" v-on:click="deleteData">delete</button>
+                    <button class="btn btn-primary" v-on:click="deleteData($index)">delete</button>
                 </td>
             </tr>
             </tbody>
@@ -92,10 +92,10 @@
             createData:function () {
                 this.items.unshift(this.newPerson);
                 //console.log(this.newPerson);
-                this.newPerson = {name:'',age:0,tel:'',content:''}
+                this.newPerson = {name:'', age:0, tel:'', content:''}
             },
             deleteData:function (index) {
-                this.items.splice(index)
+                this.items.splice(index,1)
             }
         }
     })
