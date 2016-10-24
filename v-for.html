@@ -26,29 +26,35 @@
 </body>
 <script>
     var vm = new Vue({
-        el:'#app',
-        data:{
-            people:[{
-                name:'Jack',
-                age:30,
-                sex:'Male'
-            },{
-                name:'Bill',
-                age:26,
-                sex:'Male'
-            },{
-                name:'Tracy',
-                age:22,
-                sex:'Female'
-            },{
-                name:'Chris',
-                age:36,
-                sex:'Male'
-            },{
-                name:'Chrisz',
-                age:39,
-                sex:'Male'
+        el: '#app',
+        data: {
+            people: [{
+                name: 'Jack',
+                age: 30,
+                sex: 'Male'
+            }, {
+                name: 'Bill',
+                age: 26,
+                sex: 'Male'
+            }, {
+                name: 'Tracy',
+                age: 22,
+                sex: 'Female'
+            }, {
+                name: 'Chris',
+                age: 36,
+                sex: 'Male'
+            }, {
+                name: 'Chrisz',
+                age: 39,
+                sex: 'Male'
             }]
+        },
+        // 在methods 对象中定义方法
+        methods: {
+            greet: function () {
+                alert(this.message)
+            }
         }
     })
 </script>
